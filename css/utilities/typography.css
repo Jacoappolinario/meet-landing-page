@@ -1,0 +1,17 @@
+.font-s,
+.font-s-b {
+  font: 500 1rem/1.62 "Red Hat Display", sans-serif;
+}
+
+.font-s-b {
+  font-weight: 900;
+  letter-spacing: 0.25rem;
+}
+
+.font-m {
+  font: 900 2.5rem/1.1 "Red Hat Display", sans-serif;
+}
+
+.font-l {
+  font: 900 4rem/1 "Red Hat Display", sans-serif;
+}

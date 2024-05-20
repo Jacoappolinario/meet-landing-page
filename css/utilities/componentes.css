@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+  gap: 0.25rem;
+  padding: 1rem 1.938rem;
+  background: #4d96a9;
+  border-radius: 29px;
+  color: #ffffff;
+  font: 900 1rem/1.62 "Red Hat Display", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+
+.button span {
+  color: #8fe3f9;
+}
+
+.button:hover {
+  background: #71c0d4;
+}
+
+.button.secondary {
+  background: #855fb1;
+}
+
+.button.secondary span {
+  color: #d9b8ff;
+}
+
+.button.secondary:hover {
+  background: #b18bdd;
+}

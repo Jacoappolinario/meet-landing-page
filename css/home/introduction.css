@@ -1,0 +1,39 @@
+.introduction-bg {
+  background-image: url("../../images/desktop/image-hero-left.png"),
+    url("../../images/desktop/image-hero-right.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left -32px, bottom right -32px;
+}
+
+.introduction-container {
+  box-sizing: border-box;
+  max-width: 540px;
+  padding-top: 2.938rem;
+  padding-bottom: 0.438rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.introduction-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.125rem;
+}
+
+.introduction-info h1,
+.introduction-info p {
+  text-align: center;
+}
+
+.introduction-buttons {
+  display: flex;
+  gap: 1rem;
+}

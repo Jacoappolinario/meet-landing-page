@@ -1,5 +1,8 @@
 .font-s {
   font: 900 1rem/1.62 "Red Hat Display", sans-serif;
+}
+
+.font-s-b {
   letter-spacing: 0.25rem;
 }
 
